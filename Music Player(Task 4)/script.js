@@ -77,7 +77,7 @@ function loadtrack(index){
     },1000)
     duration()
     track.load()
-    track.addEventListener("ended",nextSong
+    track.addEventListener("ended",nextSong)
 }
 loadtrack(index)
 function playpause(){

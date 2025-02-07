@@ -76,8 +76,8 @@ function loadtrack(index){
         songRange.value=track.currentTime
     },1000)
     duration()
-    track.loop=true
     track.load()
+    track.addEventListener("ended",nextSong
 }
 loadtrack(index)
 function playpause(){
